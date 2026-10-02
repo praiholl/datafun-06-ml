@@ -1,0 +1,50 @@
+# ============================================================
+# CITATION.cff (How to cite this project)
+# ============================================================
+
+# REQ.UNIVERSAL: Professional open projects SHOULD include this file.
+# WHY: Support correct citation and attribution.
+# ALT: Internal or private repositories may omit citation metadata.
+# CUSTOM: Update author, repository, license, and keyword fields as needed.
+# USAGE: See https://citation-file-format.github.io/ for details.
+
+cff-version: "1.2.0"
+message: "If using this work, please cite it as described in this file."
+type: software
+
+title: "datafun-06-ml"
+version: "0.1.0"
+date-released: "2026-08-20"
+
+authors:
+  - family-names: Praiswater
+    given-names: Holly
+    affiliation: "Northwest Missouri State University, School of Computer Science and Information Systems, Maryville, MO, USA"
+
+repository-code: "https://github.com/praiholl/datafun-06-ml"
+url: "https://github.com/praiholl/datafun-06-ml"
+license: MIT
+
+abstract: >
+  Data analytics project exploring simple and multiple linear regression
+  and predictive modeling with Python using the Palmer Penguins dataset.
+  The project compares bill depth, bill length, and flipper length as
+  individual predictors of body mass before combining all three features
+  in a multiple linear regression model. Model performance is evaluated
+  using a baseline, RMSE, R-squared, predictions, and residual analysis.
+
+
+keywords:
+  - data-analytics
+  - machine-learning
+  - predictive-analytics
+  - linear-regression
+  - multiple-linear-regression
+  - regression
+  - supervised-learning
+  - model-evaluation
+  - scikit-learn
+  - pandas
+  - python
+  - reproducible-workflows
+  - data-analytics-education
