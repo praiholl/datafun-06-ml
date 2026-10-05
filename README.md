@@ -86,18 +86,26 @@ EVALUATE    baseline vs model on y_test
 
 ## Running the Project
 
-From the project root folder, run:
+From the project root folder, first install/sync the dependencies:
 
-```shell
-uv sync
-uv run python -m datafun.app
+    uv sync
 
-uv run ruff format .
-uv run ruff check . --fix
-uv run ty check
-uv run python -m pytest
-uv run python -m zensical build
-```
+Then run the completed machine learning project:
+
+    uv run python -m datafun.app
+
+The project will perform the analysis, generate the visualizations, and create the project log.
+
+### Optional Quality Checks
+
+    uv run ruff format .
+    uv run ruff check . --fix
+    uv run ty check
+    uv run python -m pytest
+
+### Build Documentation
+
+    uv run python -m zensical build
 
 ## Documentation
 
